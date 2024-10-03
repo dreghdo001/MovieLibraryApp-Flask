@@ -1,9 +1,3 @@
-With this app you can create a list with all your favorite movies and TV shows.
+Favorite Movies & TV Shows App
 
-this app is made with flask and you'll need to create a .env file with your keys :
-
-MOVIE_DB_SEARCH_URL="https://api.themoviedb.org/3/search/movie"
-
-Movies are order by the rating you give them
-you can add, edit and delete every entry you make
-you can add them with a rating and a review
+This project is a simple web application that allows you to create and manage a personal list of your favorite movies and TV shows. You can add, edit, and delete entries, and movies are ordered by the rating you give them.
