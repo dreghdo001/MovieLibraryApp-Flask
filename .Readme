@@ -1,3 +1,32 @@
 Favorite Movies & TV Shows App
 
-This project is a simple web application that allows you to create and manage a personal list of your favorite movies and TV shows. You can add, edit, and delete entries, and movies are ordered by the rating you give them.
+This project is a simple web application that allows you to create and manage a personal list of your favorite movies and TV shows.
+You can add, edit, and delete entries, and movies are ordered by the rating you give them.
+
+
+Features
+
+Add your favorite movies or TV shows
+View detailed information and cover images fetched from The Movie Database (TMDb)
+Sort your list by the ratings you assign
+Edit or delete any entry you make
+
+Prerequisites
+You will need to set up a .env file in the root directory with your API keys. Sign up for a free account at The Movie Database (TMDb) to get your API key.
+
+.env Setup: Create a .env file and add the following variables with your TMDb API keys and the folling details:
+MOVIE_DB_API_KEY=""
+API_KEY=""
+MOVIE_DB_SEARCH_URL="https://api.themoviedb.org/3/search/movie"
+MOVIE_DB_IMAGE_URL="https://image.tmdb.org/t/p/w500"
+MOVIE_SEARCH_URL="https://api.themoviedb.org/3/movie/"
+
+Usage
+Add Movie/TV Show: Use the search function to find a movie or TV show from TMDb, and add it to your list.
+Rate & Sort: Rate each movie or show, and your list will automatically be sorted by the rating.
+Edit/Delete Entries: Click on any entry to modify or remove it from your list.
+
+Technologies Used
+Frontend: HTML + CSS 
+Backend: Flask
+API: The Movie Database (TMDb)
